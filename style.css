@@ -360,13 +360,10 @@ h3 {
   text-align: center;
   font-family: "Rancho", cursive;
 }
-ul,
-li {
-  text-align: right;
-  font-family: "Rancho", cursive;
-}
+
 body {
   font-size: 100%;
+  background-image: url("./images/honeycomb.jpg");
 }
 
 h1 {
@@ -374,54 +371,83 @@ h1 {
 }
 
 h2 {
-  font-size: 1.875em;
-}
-
-h3,
-ul,
-li {
-  font-size: 1em;
-}
-
-p {
-  font-size: 0.875em;
-}
-
-h2 {
   margin: auto;
+  font-size: 1.875em;
   width: 50%;
   outline: thick ridge green;
 }
 
-p,
-li,
-figcaption {
-  text-align: center;
-  font-family: "Roboto", cursive;
+h3 {
+  font-size: 2em;
+  font-family: "Rancho", cursive;
 }
 
-p {
+p,
+footer {
   margin: 25px 75px 25px 75px;
+  text-align: center;
+  font-family: "Roboto", cursive;
+  font-size: 1em;
 }
 
 img {
   padding: 15px 15px 15px 15px;
 }
+
 figure {
   display: inline-block;
-  border: 3px solid green;
-  margin: 20px 20px 20px 20px;
+  border: 5px solid green;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-figure img {
-  vertical-align: top;
-}
+
 figure figcaption {
   padding-bottom: 15px;
   text-align: center;
+  font-family: "Roboto", cursive;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+.container {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  clear: both;
+}
+.col-3 {
+  float: left;
+  width: 30.8%;
+  margin-right: 3.8%;
+}
+
+.last {
+  margin-right: 0;
+}
+
+ul.paws {
+  display: inline-block;
+
+  list-style-image: url("/images/Green-Paw-Print-Clip-Art-N3.png");
+  text-align: center;
+  color: green;
+  font-family: "Rancho", cursive;
+  font-size: 1.8em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  font-size: 0.8em;
+  text-decoration-color: green;
 }
