@@ -360,7 +360,10 @@ h3 {
   text-align: center;
   font-family: "Rancho", cursive;
 }
-
+#sign1 {
+  text-align: center;
+  color: rgb(7, 87, 33);
+}
 body {
   font-size: 100%;
   background-image: url("./images/honeycomb.jpg");
@@ -428,6 +431,10 @@ figure figcaption {
 .last {
   margin-right: 0;
 }
+a,
+u {
+  text-decoration: none !important;
+}
 
 ul.paws {
   display: inline-block;
@@ -444,10 +451,4 @@ ul.paws {
 }
 div {
   text-align: center;
-}
-
-li {
-  text-align: center;
-  font-size: 0.8em;
-  text-decoration-color: green;
 }
