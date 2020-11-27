@@ -409,6 +409,7 @@ figure figcaption {
   text-align: center;
   font-family: "Roboto", cursive;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -419,6 +420,7 @@ figure figcaption {
   width: 100%;
   max-width: 1000px;
   min-width: 300px;
+  padding: 25px 25px 25px 25px;
   margin: 0 auto;
   clear: both;
 }
