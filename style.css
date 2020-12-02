@@ -375,8 +375,8 @@ h1 {
 h2 {
   margin: auto;
   font-size: 1.875em;
-  width: 50%;
-  outline: thick ridge green;
+
+  border: thick ridge green;
 }
 
 h3 {
@@ -409,13 +409,6 @@ figure figcaption {
   font-family: "Roboto", cursive;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-
 a,
 u {
   text-decoration: none !important;
@@ -431,10 +424,4 @@ ul.paws {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-li.paws {
-  font-size: 0.7em;
-}
-div {
-  text-align: center;
 }
