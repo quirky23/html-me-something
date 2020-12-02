@@ -366,7 +366,6 @@ h3 {
 }
 body {
   font-size: 100%;
-  background-color: rgb(238, 245, 139);
 }
 
 h1 {
@@ -399,7 +398,7 @@ img {
 
 figure {
   display: inline-block;
-  border: 5px solid green;
+  outline: thick ridge green;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -416,23 +415,7 @@ figure figcaption {
   margin-right: auto;
   width: 20%;
 }
-.container {
-  width: 100%;
-  max-width: 1000px;
-  min-width: 300px;
-  padding: 25px 25px 25px 25px;
-  margin: 0 auto;
-  clear: both;
-}
-.col-3 {
-  float: left;
-  width: 30.8%;
-  margin-right: 3.8%;
-}
 
-.last {
-  margin-right: 0;
-}
 a,
 u {
   text-decoration: none !important;
@@ -440,8 +423,6 @@ u {
 
 ul.paws {
   display: inline-block;
-
-  list-style-image: url("/images/Green-Paw-Print-Clip-Art-N3.png");
   text-align: center;
   color: green;
   font-family: "Rancho", cursive;
@@ -450,6 +431,9 @@ ul.paws {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+li.paws {
+  font-size: 0.7em;
 }
 div {
   text-align: center;
