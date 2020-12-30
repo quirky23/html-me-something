@@ -350,16 +350,13 @@ template {
    display: none;
 }
 
-@font-face {
-   font-family: "Rancho", cursive;
-   src: url("https://fonts.googleapis.com/css2?family=Rancho&family=Roboto&display=swap");
-}
-h1,
-h2,
-h3 {
+body {
    text-align: center;
    font-family: "Rancho", cursive;
+   background-image: url(/images/hive-310659.png);
+   background-size: cover;
 }
+
 h1 {
    font-size: 4em;
    width: 100%;
@@ -370,54 +367,66 @@ h2 {
    border-radius: 12px;
    border: thick ridge green;
    padding: 15px;
+   width: 40%;
+   margin: auto;
 }
 
 h3 {
    font-size: 2em;
-   font-family: "Rancho", cursive;
+   margin: 25px auto;
 }
 
 #sign1 {
    text-align: center;
    color: rgb(7, 87, 33);
 }
-body {
-   font-size: 100%;
-   background-image: url(/images/hive-310659.png);
-   background-size: cover;
-   margin: 2.5%;
-}
 
 p,
 footer {
    margin: 25px 75px 25px 75px;
-   text-align: center;
-   font-family: Rancho, cursive;
    font-size: 1.2em;
+   font-family: "Montserrat";
+   font-weight: 400;
 }
 
 #logo {
    margin: 20px;
-   outline: none;
+   border: none;
    float: left;
    width: 23%;
 }
-.photos {
-   width: 80%;
-}
-img {
-   width: 30%;
-   display: flex;
+#container {
+   background-color: rgb(251, 252, 196);
    padding: 15px;
+   width: 90%;
+   height: 600px;
+   margin: 25px auto 25px;
+   border: thick ridge green;
+   border-radius: 12px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   flex-basis: 600px;
    vertical-align: middle;
-   outline: thick ridge green;
-   justify-content: space-evenly;
+}
+
+#jar,
+#middle,
+#comb {
+   padding: 15px;
+
+   border: thick ridge green;
+   border-radius: 12px;
+   margin: auto;
+   max-height: 500px;
+   max-width: 300px;
+   display: flex;
+   flex: 1 1 300px;
 }
 
 #middle {
    border-radius: 47%;
-   outline: none;
-   width: 18%;
+   border: none;
 }
 
 a,
@@ -425,13 +434,38 @@ u {
    text-decoration: none;
 }
 
-ul.paws {
+ul {
    display: inline-block;
-   text-align: center;
    color: green;
-   font-family: "Rancho", cursive;
    font-size: 1.8em;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+   font-family: "Montserrat";
+   font-weight: 600;
+
+   list-style-type: none;
+   padding: 10px;
+   text-align: center;
+   width: 50%;
+}
+a:hover {
+   color: green;
+}
+.paws {
+   font-family: "Rancho";
+}
+#chat {
+   background-image: url(./images/bee1.png);
+   background-size: 50px;
+   background-position: center;
+   background-repeat: no-repeat;
+   clip-path: polygon(50% 100%, 0 75%, 0 25%, 50% 0, 100% 25%, 100% 75%);
+   background-color: white;
+   position: fixed;
+   top: 20 px;
+   right: 20px;
+   height: 65px;
+   width: 65px;
+   margin: 10px;
+   border-radius: 12px;
+   padding: 20px;
+   border: none;
 }
